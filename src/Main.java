@@ -5,7 +5,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		WaveScript script=new WaveScript();
-		script.loadscript("/storage/emulated/0/funwave/极乐净土.txt");
+		script.loadscript(Constant.FILE_SD_THIS+"极乐净土.txt");
 		script.getMaker().writedata(Constant.FILE_SD_THIS+"极乐净土.wav");
 		System.out.println("ok");
 	}
